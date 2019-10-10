@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Primer Spring</title>
+</head>
+<body>
+
+<nav>
+    <div class="nav-wrapper blue-grey grey darken-3">
+        <div class="container">
+        <a href="#" class="brand-logo">IBM Paul</a>
+        </div>
+    </div>
+</nav>
+<div id="personality">
+<div class="container">
+    <div class="row">
+
+        <div class="col s3" id="col-s3">
+            <img class="brand-logo" src="img/ibm.png" height="100" style="margin-top: 50px">
+        </div>
+
+        <div class="col s9">
+            <h2 style="color: #325c80">My Profile</h2>
+            <p>Obtenga conocimiento sobre cómo y por qué las personas piensan, actúan y sienten del modo que lo hacen. Este servicio aplica análisis lingüístico y teoría de la personalidad para inferir ciertos atributos a partir
+                de texto desestructurado de la persona. </p>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="container" id="service">
+    <div class="row">
+        <div class="col s12">
+        <h4 style="color: #325c80">Pruebe nuestro servicio</h4>
+        <p>Necesita texto escrito por la persona en la que está interesado. Debería contener palabras acerca de experiencias cotidianas,
+            pensamientos, y respuestas. </p>
+         <p> Se puede jugar con la demo con un mínimo de 100 palabras , pero para un análisis más preciso , se necesita más palabras. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m12">
+            <div class="card">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col s12">
+                            <ul class="tabs">
+                                <li class="tab col s3"><a href="#test1">Tweets y Respuestas</a></li>
+                                <li class="tab col s3"><a class="active" href="#test2">Fragmento de Texto </a></li>
+                                <li class="tab col s4"><a href="#test3">Personalidad de Twitter </a></li>
+                            </ul>
+                        </div>
+                        <div id="test1" class="col s12">
+                            <div class="row">
+                                <br>
+                                <p class="col s3">
+                                    <label>
+                                        <input class="with-gap" name="group3" type="radio" checked />
+                                        <span> <img src="https://wizboots.com/wp-content/uploads/2019/03/Que-tienes-de-Ron-Weasley.jpg" height="35" width="35" style="border-radius: 50%">
+                                          @paul_ponce1</span>
+                                    </label>
+                                </p>
+                                <p class="col s3">
+                                    <label>
+                                        <input class="with-gap" name="group3" type="radio" checked />
+                                        <span> <img src="https://wizboots.com/wp-content/uploads/2019/03/Que-tienes-de-Ron-Weasley.jpg" height="35" width="35" style="border-radius: 50%">
+                                          @paul_ponce2</span>
+                                    </label>
+                                </p>
+                                <p class="col s3">
+                                    <label>
+                                        <input class="with-gap" name="group3" type="radio" checked />
+                                        <span> <img src="https://wizboots.com/wp-content/uploads/2019/03/Que-tienes-de-Ron-Weasley.jpg" height="35" width="35" style="border-radius: 50%">
+                                          @paul_ponce3</span>
+                                    </label>
+                                </p>
+                                <p class="col s3">
+                                    <label>
+                                        <input class="with-gap" name="group3" type="radio" checked />
+                                        <span> <img src="https://wizboots.com/wp-content/uploads/2019/03/Que-tienes-de-Ron-Weasley.jpg" height="35" width="35" style="border-radius: 50%">
+                                          @paul_ponce4</span>
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="test2" class="col s12">
+                            <div id="test1" class="col s12">
+                                <div class="row">
+                                    <br>
+                                    <p class="col s3">
+                                        <label>
+                                            <input class="with-gap" name="group3" type="radio" checked />
+                                            <span>2019-II Debate - Gabu vs. Winnie (Español)</span>
+                                        </label>
+                                    </p>
+                                    <p class="col s3">
+                                        <label>
+                                            <input class="with-gap" name="group3" type="radio" checked />
+                                            <span>Su propio texto</span>
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="textarea1" class="materialize-textarea" rows="4"></textarea>
+                                            <label for="textarea1">Ingrese aquí su texto</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <div class="col s3">
+                                <p>Seleccione su lenguaje : </p>
+                                </div>
+
+                                    <p class="col s3">
+                                        <label>
+                                            <input class="with-gap" name="idioma" type="radio" checked />
+                                            <span>Inglés</span>
+                                        </label>
+                                    </p>
+
+                                    <p class="col s3">
+                                        <label>
+                                            <input class="with-gap" name="idioma" type="radio" checked />
+                                            <span>Español</span>
+                                        </label>
+                                    </p>
+
+                                <div class="col s3">
+                                    <button class="waves-effect waves-light btn">Analizar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="test3" class="col s12">
+                            <br>
+                            <p class="center-align">
+                                <a class="waves-effect waves-light btn-large blue">Analizar mi Personalidad de Twitter</a>
+                            </p>
+                            <br>
+                            <p>
+                                <strong style="font-weight: bold">Nota: </strong> Será redirigido a la página de autorización de Twitter y luego será redirigido de regreso a esta aplicación para completar el análisis
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<script src="js/jquery-3.4.1.slim.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.tabs').tabs();
+    });
+
+</script>
+</body>
+</html>
